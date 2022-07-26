@@ -1,0 +1,143 @@
+*{
+    font-family: 'Nunito', 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 3500px;
+    min-width: auto;
+}
+
+[alt="bkgd"]{
+    background-image: linear-gradient(to bottom left, #ffe082, #fff8e1);
+    border-radius: 30ch 20px 0vh 0px;
+    width: 108%;
+    height: 580px;
+    margin-left: 8px;
+    position: absolute;
+    top: 90px;
+    right: -110px;
+    z-index: -1;
+}
+[alt="bkgd"]{
+    overflow: hidden;
+    max-width: none;
+    max-height: fit-content;
+    min-width: 800px;
+}
+[alt="logo"]{
+    margin: 20px 20px;
+    display: block;
+    max-width: auto;
+}
+
+.navbar{
+    margin-top: -55px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul{
+    flex: 1;
+    text-align: right;
+}
+li{ 
+    margin: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.navbar ul li{
+    display: grid;
+    display: inline;
+    text-decoration: none;
+    align-items: center;
+}
+
+.navbar ul li a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    color: red;
+}
+
+
+body{
+    margin: 20px 70px;
+}
+[alt="greeting"]{
+    display: block;
+    margin: 270px 280px;
+    margin-bottom: 250px;
+}
+[alt="name"]{
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+[alt="SE"]{
+    font-size: 28px;
+}
+[alt="one"]{
+    background-color: white;
+    width: 262px;
+}
+[alt="photo"]{
+    display: block;
+    transform: scaleX(-1);
+    flex: auto;
+    border-radius: 30px 30vh;
+    float: right;
+    margin: 100px 180px;
+    border: 5px solid white;
+}
+h1{
+    color: red;
+}
+[alt="works"]{
+    margin: 90px;
+    text-align: center;
+}
+.container{
+    display: inline-flex;
+    align-items: center;
+    margin: 0 230px;
+}
+[alt="works_images"]{
+    text-align: center;
+    width: 70px;
+    border-bottom: 1.5px solid lightgray;
+    border-bottom-left-radius: 40px;
+    width: 200px;
+}
+/*effect*/
+.works_images:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, #ffe082, #fff8e1);
+    border-radius: 30px;
+}
+
+[alt="works_images2"]{
+    text-align: center;
+    width: 70px;
+    border-bottom: 1.5px solid lightgray;
+    width: 200px;
+    margin: 0 250px;
+}
+
+[alt="works_images3"]{
+    text-align: center;
+    width: 70px;
+    border-bottom: 1.5px solid lightgray;
+    border-bottom-right-radius: 40px;
+    width: 200px;
+}
+[alt="phones"]{
+    margin-left: -28px;
+}
+
+.container_logo{
+    border-top: 1px solid gray;
+    width: 469px;
+    margin-top: 20px;
+    margin-bottom: -100px;
+}
