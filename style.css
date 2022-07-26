@@ -141,3 +141,36 @@ h1{
     margin-top: 20px;
     margin-bottom: -100px;
 }
+.box_bkgd{
+    background-image: linear-gradient(to bottom left, lightblue, #fff8e1);
+    width: 108%;
+    height: 580px;
+    margin-left: 8px;
+    position: absolute;
+    top: 90px;
+    right: -110px;
+    z-index: -1;
+}
+.box_bkgd{
+    overflow: hidden;
+    max-width: none;
+    max-height: fit-content;
+    margin: 1200px 0;
+}
+
+[alt="about"]{
+    margin-top: 100px;
+    text-align: center;
+}
+[alt="emoji"]{
+    margin: -250px -95px;
+}
+.im{
+    float: left;
+    margin: 50px 350px;
+}
+.box1{
+    display: grid;
+    text-align: end;
+    margin-top: 40px;
+}
