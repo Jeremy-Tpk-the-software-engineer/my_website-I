@@ -8,7 +8,7 @@
     background-image: radial-gradient(to bottom #f9e2ae, #a7d676);
 }
 
-[alt="bkgd"]{
+[alt="bkg"]{
     background-image: linear-gradient(to bottom left, #ffe082, #fff8e1);
     border-radius: 30ch 20px 0vh 0px;
     width: 108%;
@@ -65,7 +65,7 @@ li{
 
 body{
     margin: 20px 70px;
-    
+    background: -webkit-radial-gradient(top left, #d0e6a5, #e4dfd9);
 }
 [alt="greeting"]{
     display: block;
@@ -87,10 +87,9 @@ body{
     display: block;
     transform: scaleX(-1);
     flex: auto;
-    border-radius: 30px 30vh;
+    border-radius: 10vh;
     float: right;
     margin: 100px 180px;
-    border: 5px solid white;
 }
 h1{
     color: red;
@@ -143,7 +142,7 @@ h1{
     margin-top: 20px;
     margin-bottom: -100px;
 }
-.box_bkgd{
+.box_bkd{
     background-image: linear-gradient(to bottom left, lightblue, #fff8e1);
     width: 108%;
     height: 580px;
