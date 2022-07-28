@@ -5,6 +5,7 @@
     box-sizing: border-box;
     max-width: 3500px;
     min-width: auto;
+    background-image: radial-gradient(to bottom #f9e2ae, #a7d676);
 }
 
 [alt="bkgd"]{
@@ -64,6 +65,7 @@ li{
 
 body{
     margin: 20px 70px;
+    
 }
 [alt="greeting"]{
     display: block;
