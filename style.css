@@ -5,7 +5,7 @@
     box-sizing: border-box;
     max-width: 3500px;
     min-width: auto;
-    background-image: radial-gradient(to bottom #f9e2ae, #a7d676);
+
 }
 
 [alt="bkg"]{
@@ -32,22 +32,29 @@
 }
 
 .navbar{
-    margin-top: -55px;
+    background-color: gray;
+    height: 40px;
+    width: 500px;
+    padding-top: 10px;
+    border-radius: 10vh;
+    margin: -90px 500px;
 }
+
+
 a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: 'Quicksand', sans-serif;
 }
 
 ul{
     flex: 1;
-    text-align: right;
+    text-align: center;
 }
 li{ 
-    margin: 10px;
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .navbar ul li{
     display: grid;
@@ -59,18 +66,35 @@ li{
 .navbar ul li a:hover{
     font-weight: bolder;
     cursor: pointer;
+    background-color: white;
+    border-radius: 10ch;
+    color: red;
+}
+.navbar ul li a:active{
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10ch;
     color: red;
 }
 
-
 body{
     margin: 20px 70px;
-    background: -webkit-radial-gradient(top left, #d0e6a5, #e4dfd9);
+    background: -webkit-radial-gadient(top left, #e9eaeb, #edddcd);
+    background-image: url(images/curve_bkgd.png);
+    background-position: cover;
 }
-[alt="greeting"]{
-    display: block;
+#greeting{
+    display: bloc;
     margin: 270px 280px;
     margin-bottom: 250px;
+    width: 550px;
+    border-top: 5px solid lightgray;
+    border-top-left-radius: 30px;
+    text-align: center;
+}
+#greetin{
+    border-bottom-right-radius: 30px;
 }
 [alt="name"]{
     font-size: 60px;
@@ -80,22 +104,22 @@ body{
     font-size: 28px;
 }
 [alt="one"]{
-    background-color: white;
-    width: 262px;
+    text-align: center;
 }
 [alt="photo"]{
-    display: block;
     transform: scaleX(-1);
     flex: auto;
     border-radius: 10vh;
     float: right;
-    margin: 100px 180px;
+    margin: 150px 200px;
+    padding: auto;
+
 }
 h1{
     color: red;
 }
 [alt="works"]{
-    margin: 90px;
+    margin: 300px;
     text-align: center;
 }
 .container{
@@ -139,8 +163,7 @@ h1{
 .container_logo{
     border-top: 1px solid gray;
     width: 469px;
-    margin-top: 20px;
-    margin-bottom: -100px;
+    margin: 40px 50px;
 }
 .box_bkd{
     background-image: linear-gradient(to bottom left, lightblue, #fff8e1);
