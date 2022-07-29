@@ -81,8 +81,8 @@ li{
 body{
     margin: 20px 70px;
     background: -webkit-radial-gadient(top left, #e9eaeb, #edddcd);
-    background-image: url(images/curve_bkgd.png);
-    background-position: cover;
+    background-image: url(images/background.jpg);
+    background-position: cver;
 }
 #greeting{
     display: bloc;
